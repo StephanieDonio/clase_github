@@ -1,0 +1,54 @@
+header {
+  height: 90px;
+  display: flex;
+  align-items: center; /*Centra en el medio en variable y*/
+
+  nav {
+    width: 100%;
+
+    .navbar-brand {
+      box-sizing: border-box;
+      padding: 10px;
+
+      img {
+        max-width: 60px;
+        padding: 5px 0;
+      }
+    }
+
+    #navbarNavDropdown {
+      justify-content: flex-end;
+      li {
+        font-size: 16px;
+        position: relative;
+        & > a:hover {
+          /*la caja cuando arrastro el cursor*/
+          color: black;
+          background-color: rgba(194, 189, 189, 0.466);
+        }
+
+        & > ul {
+          display: none;
+          position: absolute;
+          top: 25px;
+          background-color: white;
+        }
+      }
+    }
+  }
+}
+
+#iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 20vw;
+  height: 20px;
+  margin: 4px;
+}
+
+.iconify {
+  width: 20px;
+  height: 20px;
+  margin: 4px;
+}

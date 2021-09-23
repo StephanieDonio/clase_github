@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+  font-family: $font-sans;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Questrial", sans-serif;
+}
+
+ul,
+ol {
+  list-style-type: none;
+
+  li {
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

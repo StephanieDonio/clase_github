@@ -1,0 +1,27 @@
+/* 
+/* MEDIA QUERIES */
+/* @media all and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #producto_header {
+    grid-column: span 1;
+  }
+
+  #footer {
+    grid-column: span 1;
+  }
+
+  #productos_aside > h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #lista_productos {
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+  }
+} */
